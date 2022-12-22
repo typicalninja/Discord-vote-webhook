@@ -1,18 +1,22 @@
+# Halted
+
+- The development of this project is halted.There is no eta on when i will resume the development of this project
+- in the current state, the project is outdated and is not recomended for usage
+
+
 ## Discord vote webhook
 
-#### Easy to use vote webhook for discord botlists (server lists support soon)
+#### Easy to use Vote Webhook handler for discord bot lists
 
 ---------------------------------
 
 #### Requirements :
 
-**>** Basic knowledge in javascript
+- Basic knowledge in javascript
 
-**>** node.js
+- Node.js > v12
 
-**>** Discord bot with a token
-
-**>** Npm packages :
+- Packages used :
  > 1. [express](https://www.npmjs.com/package/express)
  > 2. [discord.js](https://discord.js.org/#/)
  > 3. [chalk](https://www.npmjs.com/package/chalk)
@@ -27,12 +31,9 @@
 
 #### Config 
 
-Edit the configs at config.js
+The config can be found in config.js
 
-A example of full config.js using `dotenv` for secret's
-
-if your curious the bot i used here is my own bot [axix](https://axixbot.tk) go check it out!!
-
+> A example of full config.js using `dotenv` for secret's
 ```
   "mode": "bot",
   "messageType": "embed",
@@ -95,23 +96,14 @@ if everything is well you should see this
 
 Make sure all the credntials are correct in your webhook edit page on your preffered botlist
 
-** should support most botlists
-
 
 
 ### Issues:
 
 Please report all the issue to https://github.com/typicalninja493/Discord-vote-webhook/issues
 
-#### Known issues :
-
-✅ - no issues
-
-
 #### support
 
-
-[Axix development](https://discord.gg/3N3mMwfTdm)
 [Ninja lands](https://discord.gg/BtGVEREhPm)
 
 
@@ -128,24 +120,15 @@ Please report all the issue to https://github.com/typicalninja493/Discord-vote-w
 
 | Todo | Status |
 | ----------- | ----------- |
-| Support servers lists | ❌ |
-| Use chalk instead of consola for every console stuff | ❌ |
 | Handle errors nicely | ❌ |
 
 
 #### Hosting/running
 
-you can use one of the below to host this
+> Suggested Host
 
 1. [repl.it](https://repl.it/)
-
-** repl.it files a public learn to use .env if u want to use repl.it
 
 Here a quick button for repl.it 
 
 [![Run on Repl.it](https://repl.it/badge/github/typicalninja493/Discord-vote-webhook)](https://repl.it/github/typicalninja493/Discord-vote-webhook)
-
-
-2. glitch.com
-
-3. your own pc
